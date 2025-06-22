@@ -60,6 +60,12 @@ public class Main {
             for(Integer l : D){
                 System.out.println(l+1);
             }
+        }else if((double)edgeSize/GraphSize < 1.6 && GraphSize > 780000){
+            List<Integer> D = GreedyRev.Greedy_Rev(test);
+            System.out.println(D.size());
+            for(Integer l : D){
+                System.out.println(l+1);
+            }
         }else{
             List<Integer> D = GreedyVote.Greedy_Vote(test);
             System.out.println(D.size());
