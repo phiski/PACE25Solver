@@ -48,7 +48,7 @@ public class Main {
             test.get(nodes.get(i + 1)).add(nodes.get(i));
         }
 
-        if(GraphSize <= 100000){
+        if(edgeSize/GraphSize < 2 && GraphSize <= 780000){
             List<Integer> D = GreedyVote.Greedy_Vote(test);
             System.out.println(D.size());
             for(Integer l : D){
@@ -60,14 +60,14 @@ public class Main {
             for(Integer l : D){
                 System.out.println(l+1);
             }
-        }else if((double)edgeSize/GraphSize < 1.6 && GraphSize > 780000){
+        }else if((double)edgeSize/GraphSize < 1.5 && GraphSize > 780000){
             List<Integer> D = GreedyRev.Greedy_Rev(test);
             System.out.println(D.size());
             for(Integer l : D){
                 System.out.println(l+1);
             }
         }else{
-            List<Integer> D = GreedyVote.Greedy_Vote(test);
+            List<Integer> D = Greedy.Greedy(test);
             System.out.println(D.size());
             for(Integer l : D){
                 System.out.println(l+1);
