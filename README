@@ -1,0 +1,1 @@
+Das Programm wurde in Java geschrieben. Mit System.in wird die .gr-Datei eingelesen und mit System.out() wird die Lösung direkt ausgegeben, wobei in der ersten Zeile die Größe des berechneten Dominating Sets steht.
