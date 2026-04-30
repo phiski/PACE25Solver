@@ -1,5 +1,3 @@
-markdown
-
 # Heuristiken für das Dominating Set Problem
 
 Dieses Repository enthält die Implementierung meiner Bachelorarbeit im Fachbereich Informatik. Das Projekt befasst sich mit der Entwicklung und Evaluation von effizienten Heuristiken zur Lösung des (NP-schweren) Dominating Set Problems in Graphen.
