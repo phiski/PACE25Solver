@@ -15,10 +15,11 @@ Dieses Repository enthält die Implementierung meiner Bachelorarbeit im Fachbere
 ## 📈 Hintergrund der Arbeit
 Das Dominating Set Problem ist ein klassisches Problem der Graphentheorie mit Anwendungen in Netzwerkdesign, Routing und Datenanalyse. Da das Problem NP-schwer ist, liegt der Fokus dieser Arbeit auf der praktischen Anwendbarkeit durch approximative Lösungsverfahren.
 
-## 💻 Installation & Ausführung
-1. Repository klonen:
-   ```bash
-   git clone https://github.com
-   ```
-2. Kompilieren und Starten:
-   javac Main.java *.gr (Zur Ausführung wird eine *.gr-Datei benötigt, welche den Graphen beschreibt)
+## 💻 Ausführung
+Eine ausführbare Solver.jar-Datei kann unter PACESolver2025/Solver/out/artifacts gefunden werden.
+1. Lade `Solver.jar` herunter.
+2. Stelle sicher, dass **Java 21** oder höher installiert ist (`java -version`)
+3. Führe die Datei im Terminal mit folgendem Befehl aus:
+      ```bash
+      java -jar Solver.jar < instanz.gr
+      ```
