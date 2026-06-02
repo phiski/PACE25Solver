@@ -21,5 +21,14 @@ Eine ausführbare Solver.jar-Datei kann unter PACESolver2025/Solver/out/artifact
 2. Stelle sicher, dass **Java 21** oder höher installiert ist (`java -version`)
 3. Führe die Datei im Terminal mit folgendem Befehl aus:
       ```bash
-      java -jar Solver.jar < instanz.gr
+      java -jar Solver.jar instanz.gr
       ```
+## Aussehen einer *.gr-Datei
+1. Im Header befinden sich die Konten- und die Kantenazahl
+2. In den darauf folgenden Zeilen werden die Kanten beschrieben (welcher Knoten zu welchem eine verbindung hat)
+3. Beispiel:
+      p ds 4 4
+      0 1
+      1 2
+      1 3
+      2 3
