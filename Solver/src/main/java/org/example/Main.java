@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        InputStreamReader reader = new InputStreamReader(System.in);
+        FileReader reader = new FileReader("test.gr"); //Hier kann eine beliebige *.gr-Datei eingelesen werden.
 
         HashMap<Integer, List<Integer>> test = new HashMap<>();
 
