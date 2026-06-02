@@ -17,18 +17,18 @@ Das Dominating Set Problem ist ein klassisches Problem der Graphentheorie mit An
 
 ## 💻 Ausführung
 Eine ausführbare Solver.jar-Datei kann unter PACESolver2025/Solver/out/artifacts gefunden werden.
-1. Lade `Solver.jar` herunter.
-2. Stelle sicher, dass **Java 21** oder höher installiert ist (`java -version`)
-3. Führe die Datei im Terminal mit folgendem Befehl aus:
-      ```bash
-      java -jar Solver.jar instanz.gr
-      ```
+1. Klone das Repository.
+2. Unter PACE2025Solver\\Solver\\src\\main\\java\\org befindet sich die Main-Datei.
+3. In Zeile 10 befindet sich der FileReader, gebe dort den Pfad zu einer *.gr-datei an und führe das Programm aus (Als Beispiel befindet sich unter PACE2025Solver eine Datei mit dem Namen test.gr).
+4. Die erste Zeile des Ergebnisses gibt die Grße des berechneten Dominating Sets an, die darauf folgenden zeilen geben an, welche Knoten sich im Dominating Set befinden.
+
 ## Aussehen einer *.gr-Datei
 1. Im Header befinden sich die Konten- und die Kantenazahl
 2. In den darauf folgenden Zeilen werden die Kanten beschrieben (welcher Knoten zu welchem eine verbindung hat)
 3. Beispiel:
       p ds 4 4
-      0 1
       1 2
       1 3
+      1 4
       2 3
+(Die für die Arbeit verwendeten Instanzen sind hier zu finden: https://github.com/MarioGrobler/PACE2025-instances/tree/master/ds/heuristic)
